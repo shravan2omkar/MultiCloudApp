@@ -1,0 +1,45 @@
+# ============================
+# Terraform
+# ============================
+.terraform/
+*.tfstate
+*.tfstate.backup
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# ============================
+# Docker
+# ============================
+*.log
+docker-compose.override.yml
+
+# ============================
+# PowerShell / Windows
+# ============================
+*.ps1~
+*.bak
+*.tmp
+Thumbs.db
+Desktop.ini
+
+# ============================
+# Build / Output
+# ============================
+*.exe
+*.dll
+*.zip
+*.tar.gz
+*.iso
+*.pdf
+*.html
+
+# ============================
+# Screenshots / Images
+# ============================
+*.png
+*.jpg
+*.jpeg
+*.gif
