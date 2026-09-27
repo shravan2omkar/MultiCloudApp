@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 *.exe filter=lfs diff=lfs merge=lfs -text
 *.zip filter=lfs diff=lfs merge=lfs -text
 infrastructure/** filter=lfs diff=lfs merge=lfs -text
 frontend/** filter=lfs diff=lfs merge=lfs -text
 backend/** filter=lfs diff=lfs merge=lfs -text
+=======
+*.exe filter=lfs diff=lfs merge=lfs -text
+>>>>>>> c753289363eb917f95e00a949f364a4679bcf4c6

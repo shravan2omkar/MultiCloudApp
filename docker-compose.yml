@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 version: "3.9"
 
 services:
@@ -14,3 +15,21 @@ services:
       - "3000:3000"
     depends_on:
       - backend
+=======
+version: "3.9"
+
+services:
+  backend:
+    build: ./backend
+    container_name: multicloud-backend
+    ports:
+      - "5000:5000"
+
+  frontend:
+    build: ./frontend
+    container_name: multicloud-frontend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+>>>>>>> c753289363eb917f95e00a949f364a4679bcf4c6
